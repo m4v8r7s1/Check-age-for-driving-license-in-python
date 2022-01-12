@@ -1,0 +1,19 @@
+print("Enter your name")
+name = input()
+
+
+print("Enter your age")
+age = int(input())
+
+if age > 100:
+    print("InValid Age")
+elif age < 8:
+    print("You are too early for the driving license")
+elif age > 18:
+    print(name,",you are eligible for driving license")
+elif age == 18:
+    print(name,",please visit your city driving license department so that we can see your driving skills and physical strength")
+elif age < 18:
+    print(name,",you are not eligible for the driving license")
+else:
+    print("Wrong Input")
